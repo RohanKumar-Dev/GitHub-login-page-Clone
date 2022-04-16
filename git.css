@@ -1,0 +1,171 @@
+* {
+    color: white;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+body {
+    background-color: #0d1117;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.form-group {
+    background-color: #161a23;
+    width: 22%;
+    padding: 16px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 0.01px solid rgb(75, 75, 75);
+}
+
+.ff {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+input {
+    background-color: #0d1117;
+    border: 0.01px solid rgb(75, 75, 75);
+    height: 30px;
+    width: auto;
+    padding: 5px 12px;
+    margin: 4px 0px 16px;
+    border-radius: 10px;
+}
+
+.forgot {
+    float: right;
+    text-decoration: none;
+    color: rgb(152, 152, 255);
+}
+
+button {
+    height: 44 px;
+    color: rgb(255, 255, 255);
+    background-color: #228637;
+    border-radius: 10px;
+    padding: 5px 16px 12px;
+    margin: 16px 0px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 32px;
+
+}
+
+label {
+    font-size: 18px;
+    margin: 0px 0px 8px;
+    color: #c8d1d8;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #8181fd;
+}
+
+.new-acc {
+    border: 0.01px solid rgb(75, 75, 75);
+    width: 22%;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 20px 0px 10px;
+    display: flex;
+    justify-content: center;
+    height: 34px;
+    padding-top: 24px;
+
+
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+}
+
+.caa {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(152, 152, 255);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+.caa:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.terms {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(152, 152, 255);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+.privac {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(152, 152, 255);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+.security {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(152, 152, 255);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+.contact {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+.contact:hover{
+    text-decoration: underline;
+    color: rgb(152, 152, 255);
+}
